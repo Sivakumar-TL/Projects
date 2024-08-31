@@ -1,0 +1,11 @@
+.square{
+    border: 9px solid orange;
+    position: relative;
+    padding: 100px;
+}
+.small-square{
+    border: 5px dotted greenyellow;
+}
+.person1{
+    position: absolute;
+}

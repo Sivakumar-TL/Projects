@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup-Task</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="showpage()">Click Me</button>
+    <div class="modal-wrapper" id="heading">
+        <div class="modal">
+            <h1>This Is Heading <button onclick=" hidepage()" class= "modal-button" >Close</button></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione aperiam quia corrupti minima consectetur! Minus ad labore iure harum vel illum necessitatibus asperiores distinctio veritatis iusto quibusdam blanditiis, obcaecati reiciendis, odio deleniti autem perspiciatis voluptates itaque? Adipisci laborum, voluptas facilis eum nulla aperiam deserunt harum magni perferendis ea accusantium commodi ducimus odit vero sint fugiat tempore molestias temporibus numquam quibusdam! Voluptates</p>
+        </div>
+    </div>
+    <script>
+        function showpage(){
+            document.getElementById("heading").style.display = "block";
+        }
+        function hidepage(){
+            document.getElementById("heading").style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
